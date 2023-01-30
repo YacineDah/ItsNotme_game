@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    color: #1b54c5;
+    text-shadow: rgb(201, 217, 221) 2px 1px 3px;
+    margin: 0.7em;
+}
+.game {
+    font-size: 30px;
+    transform: translateY(-25%);
+    text-shadow: rgb(27, 84, 197) 2px 1px 3px;
+    color: #c9d9dd;
+}
+body {
+    background: linear-gradient(90deg, #1e1e44, #364d92);
+}
+
+#suspect1, #suspect2, #suspect3 {
+    color: #c9d9dd;
+    font-size: 90%;
+    margin: 35px;
+    padding: 0px 20px;
+    height: 80px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid #1b54c5;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+#playersGrid {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#playersGrid :nth-child(2) {
+    transform: translateY(200%);
+}
+#userGrid {
+    transform: translateY(1000%);
+    margin: 50px;
+    color: #c9d9dd;
+    font-size: 25px;
+}
+#newGame {
+    color: white;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+#caseSolution, #continue {
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.navbar {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*transform: translateY(-500%);*/
+    color: #c9d9dd;
+}
+#highScore {
+    position: sticky;
+    color: darkgreen;
+    /*transform: translateY(-80%);*/
+    font-weight: 700;
+    text-shadow: black 2px 1px 3px;
+    /*font-size: 15px;*/
+}
+form {
+				display: contents;
+}

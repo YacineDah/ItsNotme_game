@@ -1,0 +1,39 @@
+{% extends 'index.html' %}
+
+{% block head %}
+       <link href="{{ sheet }}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+<div class="navbar">
+        <div id="level">Beginner</div>
+        <div id="highScore">High Score <br>0 / Beginner</div>
+        <div id="IntelligenceBar">Intelligence 0</div>
+    </div>
+    <h1>
+It's Not Me  <br>
+    <div class="game">The Game</div>
+</h1>
+
+<form>
+<input type="submit" value="Restart" id="newGame">
+    </form>
+
+    <button id="continue">
+        Continue
+    </button>
+
+    <button id="caseSolution">
+    Show Solution
+    </button>
+
+    <div id="playersGrid">
+        <button id="suspect1">Suspect 1</button>
+        <button id="suspect2">Suspect 2</button>
+        <button id="suspect3">Suspect 3</button>
+    </div>
+
+    <div id="userGrid">
+    Spector
+    </div>
+{% endblock %}
