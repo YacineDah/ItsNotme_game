@@ -1,7 +1,7 @@
 {% extends 'index.html' %}
-
+{% load static %}
 {% block head %}
-       <link href="{{ sheet }}" rel="stylesheet">
+       <link href="{% static 'style.css' %}" rel="stylesheet">
 {% endblock %}
 
 {% block body %}
