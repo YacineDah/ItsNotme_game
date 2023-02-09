@@ -5,14 +5,10 @@
      	"use": "@vercel/python", 
      	}  
      ], 
-     "routes": [ 
-     { 
-     "src": "/static/(.*)", 
-     "dest": "/static/$1" 
-     }, 
+     "routes": [  
      { 
      "src": "/(.*)", 
      "dest": "itsnotme/wsgi.py" 
-     	} 
+     } 
 	] 
 }
