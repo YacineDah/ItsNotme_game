@@ -9,11 +9,6 @@
     {
       "src": "/(.*)",
       "dest": "itsnotme/wsgi.py"
-    },
-    
-    { 
-     "src": "/static/(.*)", 
-     "dest": "/static/$1" 
-    }
+    }
   ]
 }
